@@ -24,8 +24,6 @@ namespace NeoNet.Infra.CrossCutting.IoC
             //data
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<NeoNetContext>();
-
-
         }
     }
 }
